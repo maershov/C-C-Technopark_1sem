@@ -23,7 +23,7 @@ int read(char *str, int *, int *);
 
 int main() {
 
-    int num = READ_CONST_FOR_ITERATION;
+    const int num = READ_CONST_FOR_ITERATION;
     int P = 0;
     int Q = 0;
     int check = 0;
